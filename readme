@@ -1,0 +1,5 @@
+This is a simple key menu response for WhatsApp, using Twilio programmable WhatsApp messenging communication gateway and the code resides in Twilio Function, a serverless function as a service. The function is triggered whenever a message is send to a Whatsapp number (routing to Twilio Whatsapp Gateway) and invokes or trigger the Twilio function. You can setup the function or code in other cloud platform. A serverless event triggered function is used for simplicity as it performs a simple task.
+
+Twilio function has a maximum runtime of 5s, anything that exceed will be terminated. Nodejs is the only runtime environment currently supported.
+
+To invokve the function, you can send a HTTPS message to the function URL, this is good for testing.
